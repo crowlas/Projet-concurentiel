@@ -1,4 +1,4 @@
-Fri Oct 20 09:17:29 CEST 2017
+Fri Oct 20 14:05:13 CEST 2017
 ERROR org.eclipse.rse.core  Unexpected Exception
 java.net.UnknownHostException: xubuntu: xubuntu: Nom ou service inconnu
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
@@ -33,39 +33,4 @@ Caused by: java.net.UnknownHostException: xubuntu: Nom ou service inconnu
 	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
 	at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
 	... 25 more
---------------------------------------------
-Fri Oct 20 09:17:29 CEST 2017
-ERROR org.eclipse.rse.core  Unexpected Exception
-java.net.UnknownHostException: xubuntu: xubuntu: Nom ou service inconnu
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
-	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
-	at org.eclipse.rse.core.RSEPreferencesManager.getDefaultPrivateSystemProfileName(RSEPreferencesManager.java:358)
-	at org.eclipse.rse.internal.core.model.SystemProfileManager.ensureDefaultPrivateProfile(SystemProfileManager.java:477)
-	at org.eclipse.rse.internal.core.model.SystemProfileManager.getDefaultPrivateSystemProfile(SystemProfileManager.java:416)
-	at org.eclipse.rse.internal.core.RSEInitJob.run(RSEInitJob.java:207)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-Caused by: java.net.UnknownHostException: xubuntu: Nom ou service inconnu
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
-	... 6 more
---------------------------------------------
-Fri Oct 20 09:17:29 CEST 2017
-ERROR org.eclipse.rse.core  Unexpected Exception
-java.net.UnknownHostException: xubuntu: xubuntu: Nom ou service inconnu
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1505)
-	at org.eclipse.rse.core.RSECorePlugin.getLocalMachineName(RSECorePlugin.java:265)
-	at org.eclipse.rse.core.RSEPreferencesManager.getDefaultPrivateSystemProfileName(RSEPreferencesManager.java:358)
-	at org.eclipse.rse.internal.core.model.SystemProfileManager.createDefaultPrivateProfile(SystemProfileManager.java:450)
-	at org.eclipse.rse.internal.core.model.SystemProfileManager.ensureDefaultPrivateProfile(SystemProfileManager.java:501)
-	at org.eclipse.rse.internal.core.model.SystemProfileManager.getDefaultPrivateSystemProfile(SystemProfileManager.java:416)
-	at org.eclipse.rse.internal.core.RSEInitJob.run(RSEInitJob.java:207)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
-Caused by: java.net.UnknownHostException: xubuntu: Nom ou service inconnu
-	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
-	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
-	at java.net.InetAddress.getLocalHost(InetAddress.java:1500)
-	... 7 more
 --------------------------------------------
